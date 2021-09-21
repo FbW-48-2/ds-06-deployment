@@ -27,9 +27,9 @@ Put in there a key "MONGO_URI" and state the URL to your Atlas DB
 
 MONGO_URI=<yourConnectionStringFromAtlas>
 
-Install the dotenv package and import it in code:
+Install the dotenv package, import it and run it in code:
 
-`require("dotenv").config()`
+`dotenv.config()`
 
 Use the env variable in your instead of your hardcoded connection string with: 
 process.env.MONGO_URI
