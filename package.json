@@ -1,0 +1,27 @@
+{
+  "name": "ds-06-deployment",
+  "version": "1.0.0",
+  "description": "Please lookup the TASK_X.md files for instructions",
+  "main": "db-connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed" : "node seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslarrus/ds-06-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloslarrus/ds-06-deployment/issues"
+  },
+  "type" : "module",
+  "homepage": "https://github.com/carloslarrus/ds-06-deployment#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.9"
+  }
+}
