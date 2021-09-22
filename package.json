@@ -1,0 +1,33 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "Please lookup the TASK_X.md files for instructions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "http-errors": "^1.7.2",
+    "jsdom": "^17.0.0",
+    "mongoose": "^5.13.8",
+    "node-sass": "^6.0.1",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialouisee/ds-06-deployment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marialouisee/ds-06-deployment/issues"
+  },
+  "homepage": "https://github.com/marialouisee/ds-06-deployment#readme"
+}
